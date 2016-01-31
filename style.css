@@ -1,0 +1,90 @@
+/*html{ height:100%;background:background: rgba(228,233,236,1);
+background: -moz-linear-gradient(top, rgba(228,233,236,1) 0%, rgba(208,215,220,1) 12%, rgba(176,188,195,1) 38%, rgba(174,186,193,1) 40%, rgba(29,30,31,1) 98%, rgba(29,30,31,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,233,236,1)), color-stop(12%, rgba(208,215,220,1)), color-stop(38%, rgba(176,188,195,1)), color-stop(40%, rgba(174,186,193,1)), color-stop(98%, rgba(29,30,31,1)), color-stop(100%, rgba(29,30,31,1)));
+background: -webkit-linear-gradient(top, rgba(228,233,236,1) 0%, rgba(208,215,220,1) 12%, rgba(176,188,195,1) 38%, rgba(174,186,193,1) 40%, rgba(29,30,31,1) 98%, rgba(29,30,31,1) 100%);
+background: -o-linear-gradient(top, rgba(228,233,236,1) 0%, rgba(208,215,220,1) 12%, rgba(176,188,195,1) 38%, rgba(174,186,193,1) 40%, rgba(29,30,31,1) 98%, rgba(29,30,31,1) 100%);
+background: -ms-linear-gradient(top, rgba(228,233,236,1) 0%, rgba(208,215,220,1) 12%, rgba(176,188,195,1) 38%, rgba(174,186,193,1) 40%, rgba(29,30,31,1) 98%, rgba(29,30,31,1) 100%);
+background: linear-gradient(to bottom, rgba(228,233,236,1) 0%, rgba(208,215,220,1) 12%, rgba(176,188,195,1) 38%, rgba(174,186,193,1) 40%, rgba(29,30,31,1) 98%, rgba(29,30,31,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e9ec', endColorstr='#1d1e1f', GradientType=0 );}*/
+
+h1 {
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+	opacity:0.5;
+    color: Black;
+    text-decoration:none;
+    font-size: .5in;
+     font-family:Copperplate,'Copperplate Gothic Light',fantasy;
+    font-variant: small-caps;
+    letter-spacing: 18px;
+    text-shadow: .15em -.1em black;
+     text-shadow:
+      2px 0 0 rgba(42, 255, 255, .95),
+      4px 0 0 rgba(33, 33, 234, 0.9),
+      -2px 0 0 rgba(255, 255, 38, .95),
+      -4px 0 0 rgba(245, 12, 12, 07)
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+}
+
+  to {
+    margin-left: 0%;
+    width:100%;
+}
+}
+
+.inlineLabels {
+  width: 600px;
+  margin: 50px 50px 50px 360px;
+}
+.highneedarea {
+  width: 250px;
+  height: 20px;
+}
+.interests {
+  width: 250px;
+  height: 20px;
+}
+.borough {
+  width: 250px;
+  height: 20px;
+}
+.within {
+  width: 250px;
+  height: 20px;
+}
+.skillsets {
+  width: 250px;
+  height: 20px;
+}
+.idealfor {
+  width: 250px;
+  height: 20px;
+}
+.availability {
+  width: 250px;
+  height: 20px;
+}
+.button {
+  text-decoration: none;
+  color: black;
+}
+img { 
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+  
+  html{
+    background-image: url("https://engagealumni.files.wordpress.com/2013/01/hands.jpg");
+     background-size: cover;
+}
+
+
